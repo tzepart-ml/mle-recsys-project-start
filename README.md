@@ -55,6 +55,13 @@ wget https://storage.yandexcloud.net/mle-data/ym/interactions.parquet
 jupyter lab --ip=0.0.0.0 --no-browser
 ```
 
+## Запустите MLflow server:
+
+```
+sh run_mlflow_server.sh
+```
+
+
 # Расчёт рекомендаций
 
 Код для выполнения первой части проекта находится в файле `recommendations.ipynb`. Изначально, это шаблон. Используйте его для выполнения первой части проекта.
